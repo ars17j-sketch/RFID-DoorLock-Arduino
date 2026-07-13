@@ -105,6 +105,19 @@ Project ini dirancang agar stabil, mudah digunakan, dan mudah dikembangkan untuk
 
 ---
 
+Adaptor 12V (+)
+      │
+      │
+      ├──────── COM Relay
+      │
+      └──────── (+) Door Lock
+
+NO Relay ─────── (+) Door Lock
+
+(-) Door Lock ── (-) Adaptor 12V
+
+
+
 ## Required Libraries
 
 Install the following libraries from Arduino IDE Library Manager:
